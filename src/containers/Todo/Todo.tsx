@@ -52,7 +52,7 @@ const Todo = () => {
             />
           </div>
           <div className="col-auto">
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <button type="submit" className="btn btn-primary">Add</button>
           </div>
         </form>
         <hr/>
