@@ -33,7 +33,6 @@ export const  deleteTodo = createAsyncThunk<void, string, {state: RootState}>(
 export const  editTodo = createAsyncThunk<void, Todo, {state: RootState}>(
   'todo/edit',
   async (arg) => {
-    console.log(arg);
     await axiosAPI.put<ApiTodo>('todos/' + arg.id + '.json', {title: arg.title, status: arg.status});
   }
 );
