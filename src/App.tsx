@@ -1,7 +1,14 @@
+import Todo from './containers/Todo/Todo';
+import Appbar from './components/Appbar/Appbar';
 
 const App = () => (
   <>
-    Hello!
+    <header>
+      <Appbar/>
+    </header>
+    <main className="container-fluid">
+      <Todo/>
+    </main>
   </>
 );
 
