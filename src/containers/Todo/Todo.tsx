@@ -47,6 +47,7 @@ const Todo = () => {
               id="title"
               placeholder="Enter new todo"
               required
+              value={title}
               onChange={titleChange}
             />
           </div>
